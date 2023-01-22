@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -8,7 +7,7 @@ const CounterScreen = () => {
   return (
     <View style={styles.container}>
       <View style={{ padding: 16, paddingBottom: 24 }}>
-        <Text style={styles.titleText}>Tasp counter</Text>
+        <Text style={styles.titleText}>Taps counter</Text>
       </View>
       <View style={{ paddingBottom: 16 }}>
         <Text style={styles.countText}>{count}</Text>
